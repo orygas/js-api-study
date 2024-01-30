@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikacja pogodowa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Aplikacja pogodowa - test API</h1>
+    </header>
+    <div class="app_wrapper">
+
+        <section class="search">
+            <div class="search_card">
+                <div class="search_bar">
+                    <input type="text" placeholder="podaj nazwę miasta">
+                    <button class="search_button"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <p class="error"></p>
+            </div>
+        </section>
+
+        <main>
+            <section class="app_top">
+                <div class="app_bottom">
+                    <p class="date"></p>
+                    <h2 class="city"></h2>
+                    <div class="weather_info">
+                        <div class="weather_icon">
+                            <img src="" alt="">
+                            <p class="temp"></p>
+                        </div>
+                        <p class="description"></p>
+                    </div>
+                    <p>Temperatura odczuwalna: <span class="feels_like"></span></p>
+                    <p>Ciśnienie: <span class="pressure"></span></p>
+                    <p>Wilgotność: <span class="humidity"></span></p>
+                    <p>Prędkość wiatru: <span class="wind_speed"></span></p>
+                    <p>Zachmurzenie: <span class="clouds"></span></p>
+                </div>
+            </section>
+
+            <section class="air_pollution">
+                <h3>Informacje o zanieczyszczeniu powietrza</h3>
+                <div class="pollution_box">
+                    <img src="./img/pm25.png" alt="" class="pm25">
+                    <p><span class="pollution_info"></span><span> μg/m<sup>3</sup></span></p>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+
+    <footer>
+        <p>Projekt Oskar Rygasiewicz</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/df18227d70.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

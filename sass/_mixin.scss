@@ -1,0 +1,6 @@
+@mixin header-footer($width, $text-align, $padd, $bg-color) {
+    width: $width;
+    text-align: $text-align;
+    padding: $padd;
+    background-color: $bg-color;
+}

@@ -1,0 +1,13 @@
+header {
+    // background-color: $dark-color;
+    // text-align: center;
+    // color: $light-color;
+    // padding: 12px;
+    // width: 100%;
+
+    @include header-footer(100%, center, 20px, $primary);
+
+    h1 {
+        letter-spacing: 1px;
+    }
+}

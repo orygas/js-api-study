@@ -1,0 +1,80 @@
+header {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  background-color: #070f19;
+}
+header h1 {
+  letter-spacing: 1px;
+}
+
+.app_bottom {
+  padding: 8px 0;
+}
+.app_bottom .weather_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.app_bottom .weather_info .weather_icon {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+.app_bottom .weather_info .weather_icon p {
+  font-size: 24px;
+}
+.app_bottom .weather_info .red_decor {
+  background-color: #eb6e4b;
+  color: white;
+  padding: 8px;
+  border-radius: 10px;
+}
+.app_bottom .weather_info ~ p {
+  padding: 8px 0;
+}
+.app_bottom .weather_info ~ p span {
+  font-weight: bold;
+}
+
+.air_pollution {
+  margin-top: 20px;
+}
+.air_pollution .pollution_box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px 0;
+}
+.air_pollution .pollution_box img {
+  height: 48px;
+  border-radius: 50%;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  background-color: #070f19;
+  color: white;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
