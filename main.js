@@ -40,7 +40,7 @@ const getWeather = () => {
 
         //odwołanie do airpollution api
 
-        const URL_Pollution = `http://api.openweathermap.org/data/2.5/air_pollution?lat=${response.data.coord.lat}&lon=${response.data.coord.lon}` + apiKey;
+        const URL_Pollution = `https://api.openweathermap.org/data/2.5/air_pollution?lat=${response.data.coord.lat}&lon=${response.data.coord.lon}` + apiKey;
 
         axios.get(URL_Pollution).then(response => {
             console.log(response)
